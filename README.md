@@ -20,6 +20,8 @@ And to run it with Vite:
 
 `npm run dev`
 
+If you want to see the latest version, checkout the branch `workshop-ahold`
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
