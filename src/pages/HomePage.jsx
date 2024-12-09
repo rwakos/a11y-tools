@@ -7,16 +7,20 @@ export default function HomePage() {
         <li>Low contrast text</li>
         <li>Missing alternative text for images</li>
         <li>Missing form input labels</li>
-        <li>Empty links</li>
-        <li>Empty buttons</li>
+      </ul>
+      <h2>Also on this page</h2>
+      <ul>
+        <li>Empty link</li>
+        <li>Empty button</li>
         <li>Missing document language</li>
       </ul>
       <button />
 
       <img
+        className="img-thumbnail"
         src="/static/images/background-construction.jpg"
-        height={"250px"}
-        width={"250px"}
+        height={"200px"}
+        width={"200px"}
       />
       <a></a>
 
