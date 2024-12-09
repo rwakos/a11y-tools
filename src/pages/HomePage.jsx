@@ -7,25 +7,42 @@ export default function HomePage() {
         <li>Low contrast text</li>
         <li>Missing alternative text for images</li>
         <li>Missing form input labels</li>
-        <li>Empty links</li>
-        <li>Empty buttons</li>
+      </ul>
+      <h2>Also on this page</h2>
+      <ul>
+        <li>Empty link</li>
+        <li>Empty button</li>
         <li>Missing document language</li>
       </ul>
-      <button>Button</button>
+      <div className="d-grid">
+        <button className="btn btn-primary btn-">Not empty Button</button>
+      </div>
 
-      <img
-        src="/static/images/background-construction.jpg"
-        height={"250px"}
-        width={"250px"}
-        alt="Background of something under construction"
-      />
-      <a></a>
-
-      <div>
-        <a href="https://www.freepik.com/" target="_blank">
-          designed by Freepik, if you click here it will take to an external
-          page
-        </a>
+      <div className="container text-center mt-3">
+        <div className="row">
+          <div className="col">
+            <a
+              href="https://www.freepik.com/"
+              target="_blank"
+              alt="Freepik logo. This url will open on a new window"
+            >
+              <img
+                className="img-thumbnail"
+                src="/static/images/background-construction.jpg"
+                height={"200px"}
+                width={"200px"}
+                alt="Background of something under construction"
+              />
+            </a>
+          </div>
+          <div className="col">
+            <p className="fs-6 text-start">
+              Image designed by Freepik. <br />
+              Note: by clicking on the image, you will be redirected to an new
+              page
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
